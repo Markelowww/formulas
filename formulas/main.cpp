@@ -12,6 +12,6 @@ int main()
     printf("Enter x:\n");
     scanf("%d", &x);
     CalculationFormula(x, r1, s1, help, y, e, k1, r2, s2, k2, r3, s3, k3);
-    printf("y = %.f", y);
+    printf("y = %lf", y);
     return 0;
 }
